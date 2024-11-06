@@ -1,0 +1,82 @@
+.business-card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 91vh;
+  background-color: #f9f9f9;
+  font-size: 12px;
+}
+.business-card {
+  width: 390px;
+  height: 523px;
+  background-color: white;
+}
+.card-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d9d9d9;
+  height: 60px;
+  font-weight: 700;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 56px;
+  gap: 10px;
+}
+
+input {
+  background-color: #f5f5f5;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 45px;
+  width: 100%;
+  text-indent: 10px;
+}
+.card-next {
+  background-color: #bce7bc;
+  border: 1px solid black;
+  color: black;
+  border-radius: 5px;
+  height: 45px;
+  width: 100%;
+  font-weight: bold;
+}
+
+/* result step */
+.qr-code{
+    max-width: 170px;
+    padding: 10px 0;
+}
+
+/* Presentation */
+.img-container{
+  display: flex;
+  justify-content: center;
+}
+.round-image {
+  width: 150px; /* Set width */
+  height: 150px; /* Set height */
+  overflow: hidden; /* Hide overflow */
+  border-radius: 50%; /* Make it round */
+  display: flex; /* Center the image */
+  justify-content: center; /* Center the image */
+  align-items: center; /* Center the image */
+  border: 2px solid #ccc; /* Optional: Add a border */
+}
+
+.round-image img {
+  width: 100%; /* Make image fill the div */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Cover the area of the div */
+}
+.card-download{
+  background-color: #c3eeea;
+  border: 1px solid black;
+  color: black;
+  border-radius: 5px;
+  height: 45px;
+  width: 100%;
+  font-weight: bold;
+}
